@@ -1,7 +1,6 @@
-
-typedef struct {
-    
-} NRF_UART_REG;
+#pragma once
+#include <stdint.h>
+#include "gpio.h"
 
 void uart_init();
 void uart_send(char letter);
